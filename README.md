@@ -1,4 +1,4 @@
-# ✨ ConvoCamera: AI-Powered, Instant & Comprehensive Speaking Feedback
+# 📸 ConvoCamera: AI-Powered, Instant & Comprehensive Speaking Feedback
 
 ### 💡 Instantly processes your language conversations into clear grammar feedback and provides image-centered vocabulary search using AI. 
 
