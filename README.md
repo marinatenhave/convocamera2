@@ -1,7 +1,16 @@
-<a href="https://usenotesgpt.com/">
-  <img alt="NotesGPT – AI-powered voice note taking in seconds." src="/public/images/og-image.png">
-  <h1 align="center">notesGPT</h1>
-</a>
+# ConvoCamera: ConvoCamera: AI-Powered, Instant & Comprehensive Speaking Feedback
+
+<h1 className="inline-block text-center text-4xl font-bold tracking-tighter text-dark lg:text-7xl">
+          ConvoCamera: View Grammar Feedback, Instant & Comprehensive Speaking Feedback
+        </h1>
+        <p className="mt-8 text-center text-xl font-light tracking-tight lg:text-3xl">
+          ConvoCamera instantly processes your language conversations into{' '}
+          <span className="font-bold">
+            clear <br className="hidden lg:inline-block" />
+            grammar feedback
+          </span>{' '}
+          and provides <span className="font-bold">image-centered vocabulary search</span> using AI.
+        </p>
 
 <p align="center">
   Generate action items from your notes in seconds. Powered by Convex, Together.ai, and Whisper.
@@ -44,18 +53,3 @@ You can deploy this template by setting up the following services and adding the
 6. Make a [Replicate](https://replicate.com) account to get your [API key](https://replicate.com/account/api-tokens).
 7. Save your environment variables in Convex [as `REPLICATE_API_KEY` and `TOGETHER_API_KEY`](https://dashboard.convex.dev/deployment/settings/environment-variables?var=REPLICATE_API_KEY&var=TOGETHER_API_KEY).
 
-## Future tasks
-
-- [ ] Keep recording for future playback and display it on the page somewhere
-- [ ] Animate the purple microphone to be in sync with your voice
-- [ ] Store completed action items for the future instead of fully deleting them
-- [ ] Make text/images in the landing page smaller to account for multiple screen sizes.
-- [ ] Make the search experience a little smoother overall by searching automatically on entering text
-- [ ] Be able to have this as a PWA if there's an easy step to do that
-- [ ] Prompt engineer the summary a little more to be more useful than what's currently displaying
-- [ ] Add a Notion integration to be able to get the transcript + summary + action items on there
-- [ ] UI updates to make it look a little nicer based on Youssef's redesign
-- [ ] Be able to edit action items after the fact and set a due date for them
-- [ ] Account for layout shift on the dashboard page when refreshing – show a loading state on content?
-- [ ] Make action items animate out + make checkbox rounded + add a little check icon on hover
-- [ ] Migrate to incredibly fast whisper
