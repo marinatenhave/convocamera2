@@ -24,7 +24,6 @@ export default function RecordingDesktop({
   const [originalIsOpen, setOriginalIsOpen] = useState<boolean>(true);
 
   const mutateActionItems = useMutation(api.notes.removeActionItem);
-  const generateTextFromVoice = useAction(api.whisper.chat)
 
   function removeActionItem(actionId: any) {
     // Trigger a mutation to remove the item from the list

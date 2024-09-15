@@ -16,7 +16,7 @@ interface whisperOutput {
   translation: string | null;
 }
 
-export const chat = action({
+export const chat = internalAction({
   args: {
     fileUrl: v.string(),
     id: v.id('notes'),
