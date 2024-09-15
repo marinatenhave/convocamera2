@@ -1,19 +1,11 @@
-# ConvoCamera: ConvoCamera: AI-Powered, Instant & Comprehensive Speaking Feedback
+# ✨ ConvoCamera: AI-Powered, Instant & Comprehensive Speaking Feedback
 
-<h1 className="inline-block text-center text-4xl font-bold tracking-tighter text-dark lg:text-7xl">
-          ConvoCamera: View Grammar Feedback, Instant & Comprehensive Speaking Feedback
-        </h1>
-        <p className="mt-8 text-center text-xl font-light tracking-tight lg:text-3xl">
-          ConvoCamera instantly processes your language conversations into{' '}
-          <span className="font-bold">
-            clear <br className="hidden lg:inline-block" />
-            grammar feedback
-          </span>{' '}
-          and provides <span className="font-bold">image-centered vocabulary search</span> using AI.
-        </p>
+### 💡 Instantly processes your language conversations into clear grammar feedback and provides image-centered vocabulary search using AI. 
+
+--> [HackMIT Presentation](https://www.canva.com/design/DAGQzq87BVU/DUTKWNb1YEBWL6JlJdPmiw/edit?utm_content=DAGQzq87BVU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 <p align="center">
-  Generate action items from your notes in seconds. Powered by Convex, Together.ai, and Whisper.
+  Instantly processes your language conversations into clear grammar feedback and provides image-centered vocabulary search using AI. Powered by Convex, Together.ai, and Whisper.
 </p>
 
 <p align="center">
@@ -29,7 +21,7 @@
 - Next.js [App Router](https://nextjs.org/docs/app) for the framework
 - [Together Inference](https://dub.sh/together-ai) for the LLM (Mixtral)
 - [Together Embeddings](https://dub.sh/together-ai) for the embeddings for search
-- [Convex File Storage](https://docs.convex.dev/file-storage) for storing voice notes
+- [Convex File Storage](https://docs.convex.dev/file-storage) for storing conversations
 - [Convex Vector search](https://docs.convex.dev/vector-search) for vector search
 - [Replicate](https://replicate.com/) for Whisper transcriptions
 - [Clerk](https://clerk.dev/) for user authentication
