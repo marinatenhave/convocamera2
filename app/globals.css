@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Adding the Rubik font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+  /* Change font-family to Rubik */
+  font-family: 'Rubik', sans-serif;
+}
+
+.max-width {
+  @apply mx-auto max-w-[1536px] px-5 md:px-6 lg:px-8 xl:px-10 2xl:px-0;
+}
+
+.primary-gradient {
+  background: linear-gradient(
+    267deg,
+    #e18645 -9.43%,
+    #040218 -9.42%,
+    rgba(239, 202, 52, 0.94) 4.63%,
+    rgba(29, 118, 39, 0.82) 127.55%
+  );
+}
+
+.primary-shadow {
+  box-shadow: 0px 4px 4px 0px rgba(124, 32, 9, 0.25);
+}
+
+.progress-bar {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%2367028BFF' stroke-width='3' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
+}
+
+.custom-nav-shadow {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.recording-box {
+  background: linear-gradient(
+    143deg,
+    #f4a148 8.37%,
+    rgba(227, 178, 19, 0.62) 71.62%
+  );
+  filter: blur(13.100000381469727px);
+}
+
+.action-btn-active {
+  border: 0.3px solid rgba(158, 158, 158, 0.4);
+  background: #ebecef;
+  box-shadow:
+    1px 1px 5px 1px rgba(24, 24, 24, 0.68) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.action-btn {
+  border: 0.3px solid rgba(158, 158, 158, 0.4);
+  background: rgba(255, 240, 240, 0.4);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.record-animation {
+  animation: rotate360 infinite 5s linear;
+}
+
+@keyframes ping {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.ping-animation div {
+  animation: ping 1.5s infinite ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .custom-nav-shadow {
+    box-shadow: none;
+  }
+}
