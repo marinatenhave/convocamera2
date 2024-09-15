@@ -2,9 +2,8 @@
 
 ### 💡 Instantly processes your language conversations into clear grammar feedback and provides image-centered vocabulary search using AI. 
 
-[HackMIT Presentation](https://www.canva.com/design/DAGQzq87BVU/DUTKWNb1YEBWL6JlJdPmiw/edit?utm_content=DAGQzq87BVU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
 <p align="center">
+  Check out our [HackMIT Presentation](https://www.canva.com/design/DAGQzq87BVU/DUTKWNb1YEBWL6JlJdPmiw/edit?utm_content=DAGQzq87BVU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) for more details!
   Powered by Convex, Together.ai, and Whisper.
 </p>
 
