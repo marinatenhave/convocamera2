@@ -5,7 +5,7 @@
 Check out our [HackMIT Presentation](https://www.canva.com/design/DAGQzq87BVU/DUTKWNb1YEBWL6JlJdPmiw/edit?utm_content=DAGQzq87BVU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) for more details!
 
 <p align="center">
-  Powered by Convex, Together.ai, and Whisper.
+  Refactored from the open-source [NotesGPT](https://github.com/Nutlope/notesGPT) app from Convex. Powered by Convex, Together.ai, and Whisper.
 </p>
 
 <p align="center">
